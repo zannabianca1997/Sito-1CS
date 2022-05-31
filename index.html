@@ -23,20 +23,45 @@
 
         ul.site_list {
             list-style-type: none;
-            padding: 0;
+            padding-left: 0;
             width: 80%;
             display: table;
             margin: 0 auto;
             text-align: left;
         }
 
-        ul.site_list li em {
-            float: right;
+        ul.site_list li {
+            border-style: solid;
+            border-width: 1px;
+
+            margin-bottom: 2px;
+            padding-left: 10px;
+
+            line-height: 1.5;
         }
 
-        ul.site_list li {
-            border: 1px solid blue;
-            padding: 4px;
+        ul.site_list li:hover {
+            background-color: #498f91;
+        }
+
+        ul.site_list li a {
+            display: block;
+            color: black;
+            text-decoration: none;
+        }
+
+        ul.site_list li a:hover {
+            color: #091d82;
+            text-decoration: none;
+        }
+
+        ul.site_list li a:visited {
+            color: #081658;
+            text-decoration: none;
+        }
+
+        ul.site_list li em {
+            float: right;
         }
     </style>
 </head>
@@ -47,14 +72,14 @@
         Ecco i risultati caricati fino ad ora!</p>
 
     <ul class="site_list">
-        <li><a href="subsites/martam_martab_ginevra/index.html">Biografia degli attori</a> <em>Marta B.,Marta M.,Ginevra
-                B.</em></li>
-        <li><a href="subsites/Andrea Carpini/Index.html">Cose!</a> <em>Andrea Carpini</em></li>
-        <li><a href="subsites/emma capanni/index.html">Pallavolista Italiana</a> <em>Emma Capanni</em></li>
-        <li><a href="subsites/Orioli e Ciampinelli/index.html informatica/index.html">IL GOAT ED ER PUPONE</a>
-            <em>Orioli e Ciampinelli</em>
+        <li><a href="subsites/martam_martab_ginevra/index.html">Biografia degli attori <em>Marta B.,Marta M.,Ginevra
+                    B.</em></a></li>
+        <li><a href="subsites/Andrea Carpini/Index.html">Cose! <em>Andrea Carpini</em></a></li>
+        <li><a href="subsites/emma capanni/index.html">Pallavolista Italiana <em>Emma Capanni</em></a></li>
+        <li><a href="subsites/Orioli e Ciampinelli/index.html informatica/index.html">IL GOAT ED ER PUPONE
+                <em>Orioli e Ciampinelli</a></em>
         </li>
-        <li><a href="subsites/Rovai e Bargioni/Sito_Rovai.html">Bargio's Adventures</a> <em>Rovai e Bargioni</em></li>
+        <li><a href="subsites/Rovai e Bargioni/Sito_Rovai.html">Bargio's Adventures <em>Rovai e Bargioni</em></a></li>
     </ul>
 
     <p class="copyright">Questo è un progetto didattico ed è distribuito sotto la <a href="LICENSE">Unlicense</a>.<br>
